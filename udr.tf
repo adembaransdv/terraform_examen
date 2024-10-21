@@ -1,4 +1,4 @@
-resource "azurerm_route_table" "udr" {
+data "azurerm_route_table" "udr" {
   name                = "UDR"
   location            = "West Europe"
   resource_group_name = "Testrg"
